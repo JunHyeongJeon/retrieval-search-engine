@@ -1,0 +1,79 @@
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+/usr/local/lib/python3.6/site-packages/celery/backends/amqp.py:68: CPendingDeprecationWarning: 
+    The AMQP result backend is scheduled for deprecation in     version 4.0 and removal in version v5.0.     Please use RPC backend or a persistent backend.
+
+  alternative='Please use RPC backend or a persistent backend.')
+[2018-10-07 22:06:36,779: WARNING/ForkPoolWorker-2] ====================
+[2018-10-07 22:06:36,779: WARNING/ForkPoolWorker-2] Worker Id: 0
+[2018-10-07 22:06:36,780: WARNING/ForkPoolWorker-2] ====================
+[2018-10-07 22:06:36,780: ERROR/ForkPoolWorker-2] Signal handler <function module_load_init at 0x7f9225efd6a8> raised: FileNotFoundError(2, 'No such file or directory')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/dispatch/signal.py", line 227, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/trademark/code/retrieval-search-engine/WebAnalyzer/tasks.py", line 41, in module_load_init
+    db=load_features()
+  File "/trademark/code/retrieval-search-engine/WebAnalyzer/utils/load_features.py", line 10, in load_features
+    for dataset in os.listdir(features_path):
+FileNotFoundError: [Errno 2] No such file or directory: '/trademark/code/retrieval-search-engine/WebAnalyzer/utils/../../data/features'
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+/usr/local/lib/python3.6/site-packages/celery/backends/amqp.py:68: CPendingDeprecationWarning: 
+    The AMQP result backend is scheduled for deprecation in     version 4.0 and removal in version v5.0.     Please use RPC backend or a persistent backend.
+
+  alternative='Please use RPC backend or a persistent backend.')
+[2018-10-07 22:06:36,812: WARNING/ForkPoolWorker-3] ====================
+[2018-10-07 22:06:36,813: WARNING/ForkPoolWorker-3] Worker Id: 1
+[2018-10-07 22:06:36,813: WARNING/ForkPoolWorker-3] ====================
+[2018-10-07 22:06:36,813: ERROR/ForkPoolWorker-3] Signal handler <function module_load_init at 0x7f9225efd6a8> raised: FileNotFoundError(2, 'No such file or directory')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/dispatch/signal.py", line 227, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/trademark/code/retrieval-search-engine/WebAnalyzer/tasks.py", line 41, in module_load_init
+    db=load_features()
+  File "/trademark/code/retrieval-search-engine/WebAnalyzer/utils/load_features.py", line 10, in load_features
+    for dataset in os.listdir(features_path):
+FileNotFoundError: [Errno 2] No such file or directory: '/trademark/code/retrieval-search-engine/WebAnalyzer/utils/../../data/features'
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+/usr/local/lib/python3.6/site-packages/celery/backends/amqp.py:68: CPendingDeprecationWarning: 
+    The AMQP result backend is scheduled for deprecation in     version 4.0 and removal in version v5.0.     Please use RPC backend or a persistent backend.
+
+  alternative='Please use RPC backend or a persistent backend.')
+[2018-10-07 22:06:36,821: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2018-10-07 22:06:36,831: INFO/MainProcess] mingle: searching for neighbors
+[2018-10-07 22:06:37,844: INFO/MainProcess] mingle: all alone
+[2018-10-07 22:06:37,871: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-10-07 22:06:37,871: INFO/MainProcess] celery@40d12eeaed24 ready.
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+/usr/local/lib/python3.6/site-packages/celery/backends/amqp.py:68: CPendingDeprecationWarning: 
+    The AMQP result backend is scheduled for deprecation in     version 4.0 and removal in version v5.0.     Please use RPC backend or a persistent backend.
+
+  alternative='Please use RPC backend or a persistent backend.')
+[2018-10-07 22:06:38,234: INFO/Beat] beat: Starting...
